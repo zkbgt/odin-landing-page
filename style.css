@@ -8,7 +8,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 60%;
 }
 
 .header {
@@ -132,8 +132,8 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding-left: 250px;
-    padding-right: 250px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
 .quote-actual {
@@ -141,6 +141,8 @@ button {
     font-style: italic;
     font-weight: 300;
     color: #1F2937;
+    max-height: 350px;
+    padding-bottom: 8px;
 }
 
 .quote-author {
